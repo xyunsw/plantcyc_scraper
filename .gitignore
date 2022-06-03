@@ -1,0 +1,6 @@
+/pages
+venv
+*.json
+*.xlsx
+*.html
+*ids.txt
