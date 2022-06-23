@@ -7,8 +7,8 @@ import requests
 import urllib.parse
 from bs4 import BeautifulSoup
 
-os.environ['http_proxy'] = 'http://127.0.0.1:10801'
-os.environ['https_proxy'] = 'http://127.0.0.1:10801'
+# os.environ['http_proxy'] = 'http://127.0.0.1:10801'
+# os.environ['https_proxy'] = 'http://127.0.0.1:10801'
 
 def make_url(id_):
     id_ = urllib.parse.quote_plus(id_)
