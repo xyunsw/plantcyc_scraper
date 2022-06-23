@@ -4,3 +4,5 @@ venv
 *.xlsx
 *.html
 *ids.txt
+*.zip
+/priv
